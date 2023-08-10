@@ -6,6 +6,6 @@ final class SwiftUIGlassTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct
         // results.
-        XCTAssertEqual(SwiftUIGlass().text, "Hello, World!")
+        XCTAssertEqual(GlassView(cornerRadius: 20.0).cornerRadius, 20.0)
     }
 }
